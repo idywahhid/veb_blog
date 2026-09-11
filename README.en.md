@@ -1,6 +1,6 @@
 [🇺🇿 O'zbekcha](README.md) | [🇬🇧 English](README.en.md) | [🇷🇺 Русский](README.ru.md)
 
-# wahhid — personal blog
+# idywahhid — personal blog
 
 A personal blog and journal platform built with Flask, styled like a terminal/code editor. Dark theme, `$` prompt aesthetic, and a fully functional admin panel.
 
