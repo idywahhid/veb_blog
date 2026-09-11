@@ -57,43 +57,6 @@ Production uchun:
 gunicorn app:app -c gunicorn.conf.py
 ```
 
-## Sahifalar
-
-### 🏠 Bosh sahifa (`/`)
-Terminal uslubidagi kirish sahifasi — qisqa tanishtiruv, so'nggi maqolalarga havola va interaktiv "terminal" bloki orqali profil haqida ma'lumot.
-
-![Bosh sahifa](static/screenshots/home.jpg)
-
-### 📰 Blog (`/blog`)
-Barcha nashr etilgan maqolalar sanaga qarab guruhlangan holda, qidiruv paneli bilan.
-
-![Blog sahifasi](static/screenshots/blog.jpg)
-
-### 📄 Maqola (`/blog/<slug>`)
-Bitta maqolaning to'liq matni, o'qish vaqti, joylashuv va oldingi/keyingi maqolaga o'tish tugmalari bilan.
-
-![Maqola sahifasi](static/screenshots/article.jpg)
-
-### 👤 Men haqimda (`/about`)
-Muallif haqida qisqa hikoya va blogdan nimalarni topish mumkinligi tavsifi.
-
-![Haqida sahifasi](static/screenshots/about.jpg)
-
-### ✉️ Aloqa (`/kontakt`)
-Terminal uslubidagi xabar yuborish formasi va ijtimoiy tarmoq/aloqa kanallari ro'yxati. Rate-limit bilan himoyalangan.
-
-![Kontakt sahifasi](static/screenshots/kontakt.jpg)
-
-### 🔐 Admin — kirish (`/admin/login`)
-Login va parol orqali kirish, brute-force himoyasi bilan.
-
-![Admin login](static/screenshots/admin_login.jpg)
-
-### 📊 Admin — boshqaruv paneli
-Maqolalar, feedback, galereya va sozlamalarni bir joydan boshqarish uchun dashboard.
-
-![Admin dashboard](static/screenshots/admin_dashboard.jpg)
-
 ## Muhit o'zgaruvchilari
 
 | O'zgaruvchi | Tavsif |
