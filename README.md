@@ -1,6 +1,6 @@
 [🇺🇿 O'zbekcha](README.md) | [🇬🇧 English](README.en.md) | [🇷🇺 Русский](README.ru.md)
 
-# wahhid — shaxsiy blog
+# idy@wahhid — shaxsiy blog
 
 Flask asosida qurilgan, terminal/kod estetikasidagi shaxsiy blog va kundalik platformasi. Qorong'i tungi tema, `$` prompt uslubi va to'liq funksional admin panel bilan.
 
