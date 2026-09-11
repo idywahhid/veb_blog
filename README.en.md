@@ -57,43 +57,6 @@ Production:
 gunicorn app:app -c gunicorn.conf.py
 ```
 
-## Pages
-
-### 🏠 Home (`/`)
-Terminal-style landing page — a short introduction, links to recent articles, and an interactive "terminal" block with profile info.
-
-![Home page](static/screenshots/home.jpg)
-
-### 📰 Blog (`/blog`)
-All published articles grouped by date, with a search bar.
-
-![Blog page](static/screenshots/blog.jpg)
-
-### 📄 Article (`/blog/<slug>`)
-Full article text with reading time, location, and previous/next article navigation.
-
-![Article page](static/screenshots/article.jpg)
-
-### 👤 About (`/about`)
-A short story about the author and what readers can expect to find on the blog.
-
-![About page](static/screenshots/about.jpg)
-
-### ✉️ Contact (`/kontakt`)
-Terminal-style message form plus a list of social/contact channels. Protected by rate limiting.
-
-![Contact page](static/screenshots/kontakt.jpg)
-
-### 🔐 Admin — login (`/admin/login`)
-Username/password login with brute-force protection.
-
-![Admin login](static/screenshots/admin_login.jpg)
-
-### 📊 Admin — dashboard
-Manage articles, feedback, gallery, and settings from one place.
-
-![Admin dashboard](static/screenshots/admin_dashboard.jpg)
-
 ## Environment variables
 
 | Variable | Description |
